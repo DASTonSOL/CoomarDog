@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coomardog Memecoin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #ff6b6b;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #ff4a4a;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 2em;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        /* Mobil uyumluluk */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            .cta-button {
+                width: 90%;
+                font-size: 1em;
+                padding: 12px 20px;
+            }
+            .social-icons a {
+                font-size: 1.5em;
+            }
+            footer {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coomardog Memecoin</h1>
+        <p>En eğlenceli memecoin deneyimi!</p>
+    </header>
+
+    <section>
+        <h2>Hoş Geldiniz!</h2>
+        <p>Coomardog, eğlenceli bir memecoin'dir! Şimdi, kripto dünyasına adım atarken keyifli bir deneyim yaşayın.</p>
+        <p>Memecoin’inizi <strong>pump.fun</strong> üzerinden satın alabilirsiniz!</p>
+        <a href="https://pump.fun/coin/FqzAJnDPKJZuNMRDeEqk3U5itsdPxro41wAQVgazpump" class="cta-button" target="_blank">Satın Al</a>
+    </section>
+
+    <section>
+        <h2>Coomardog Hakkında</h2>
+        <p>Coomardog, Solana tabanlı, hızla yayılan ve eğlenceli bir memecoin'dir. Dünyanın her yerinden kullanıcılar, Coomardog ile hem eğleniyor hem de kazanç sağlıyor!</p>
+    </section>
+
+    <section>
+        <h2>Coin Kontrat Adresi (CA)</h2>
+        <p><strong>CA: FqzAJnDPKJZuNMRDeEqk3U5itsdPxro41wAQVgazpump</strong></p>
+    </section>
+
+    <section class="social-icons">
+        <a href="https://twitter.com/coomardog" target="_blank">🐦</a>
+        <a href="https://t.me/coomardog" target="_blank">💬</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Coomardog Memecoin. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
